@@ -48,6 +48,7 @@
 // console.log("11" + 1);  // Ausgabe: 111
 // console.log("11" - 1);  // Ausgabe: 10
 
+/***** 03a Variablen vs. Konstanten *******/
 
 // let firstName = "Max"; // Deklaration + Wertzuweisung
 // firstName = "Maxine";
