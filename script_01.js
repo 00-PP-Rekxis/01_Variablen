@@ -34,14 +34,26 @@
 // console.log(firstName, familyName);
 // console.log(`${firstName} ${familyName}`); // Template literals
 
-let test;
-test = "Maxine";
-test = 2;
-test = false;
-test = "2";
+/* JS ist eine untypisierte Sprache! | untyped */
+// let test;
+// test = "Maxine";
+// test = 2;
+// test = false;
+// test = "2";
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
 
-console.log("11" + 1);  // 111
-console.log("11" - 1);  // 10
+/* ??????????? KEKW */
+// console.log("11" + 1);  // Ausgabe: 111
+// console.log("11" - 1);  // Ausgabe: 10
+
+
+// let firstName = "Max"; // Deklaration + Wertzuweisung
+// firstName = "Maxine";
+// console.log(firstName); // Ausgabe 
+
+// const firstName = "Max"; // Variable mit KONSTANTEM Inhalt
+// // firstName = "Maxine"; // KEINE neue Zuweisung zur LZ möglich"! --> Fehler!
+// console.log(firstName); // Ausgabe 
+
