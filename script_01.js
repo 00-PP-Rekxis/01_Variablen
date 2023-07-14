@@ -61,15 +61,16 @@
 /***** 04 Beispiel - Berechnung *******/
 
 // Deklaration
-
 let ageJohn, ageMark;
 const birthYearJohn = 2000;
 const birthYearMark = 1990;
 
+// Berechnung
 let currentDate = new Date(); // Systemfunktion Datum
 let currentYear = currentDate.getFullYear(); // Daten liefern lassen!
 ageJohn = currentYear - birthYearJohn;
 ageMark = currentYear - birthYearMark;
 
+// Ausgabe
 console.log("ageJohn: " + ageJohn);
 console.log("ageMark: " + ageMark);
